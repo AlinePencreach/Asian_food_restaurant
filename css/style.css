@@ -10,9 +10,10 @@
 
 .navbar {
   background: #001542;
+  padding: 1em 2em;
 }
 
-.navbar-toggler-icon {
+.navbar .navbar-toggler-icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -24,11 +25,7 @@
           align-items: center;
 }
 
-.nav-link {
-  color: white;
-}
-
-.list {
+.navbar .list {
   height: 3em;
 }
 
@@ -36,9 +33,18 @@
   position: relative;
 }
 
-.navbar-nav {
+.navbar-collapse .navbar-nav {
   position: absolute;
   right: 0;
+}
+
+.nav-item {
+  margin: 0px;
+}
+
+.nav-link {
+  color: #FFFFFF;
+  font: 1.3em "loraregular", "sans-serif";
 }
 
 .hero-banner {

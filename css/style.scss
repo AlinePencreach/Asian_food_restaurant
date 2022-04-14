@@ -12,33 +12,36 @@
 // NAVBAR
 .navbar {
   background: $primary-color;
-}
-
-
-.navbar-toggler-icon {
+  padding: 1em 2em;
+  .navbar-toggler-icon {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.nav-link {
-  color: white;
-}
-.list {
+  }
+  .list {
     height: 3em;
+  }
 }
 
 .navbar-collapse {
   position: relative;
+  .navbar-nav {
+    position: absolute;
+    right: 0;
+  }
 }
 
-.navbar-nav {
-  position: absolute;
-  right: 0;
+.nav-item {
+  margin: 0px;
+}
+
+.nav-link {
+  color: $white-color;
+  font: $primary-font;
 }
 
 .hero-banner {
-    background: $primary-color;
-    height: 100vh;
-    width: auto;
+  background: $primary-color;
+  height: 100vh;
+  width: auto;
 }
