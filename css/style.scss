@@ -1,15 +1,3 @@
 @import "sass/tools/_variables.scss";
-@import "fonts/webfontkit-20220414-062614/stylesheet";
-
-h1 {
-    font: $primary-title-font;
-}
-
-h2 {
-    font: $secondary-font;
-}
-
-p{
-    font: $primary-font;
-} 
+@import "fonts/webfontkit-20220414-062614/stylesheet"
 
