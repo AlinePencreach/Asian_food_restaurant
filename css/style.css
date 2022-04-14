@@ -1,2 +1,49 @@
 @import url(/Users/alinepencreach/Documents/_Work/Git/Asian_food_restaurant/css/fonts/webfontkit-20220414-062614/stylesheet.css);
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navbar {
+  background: #001542;
+}
+
+.navbar-toggler-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-link {
+  color: white;
+}
+
+.list {
+  height: 3em;
+}
+
+.navbar-collapse {
+  position: relative;
+}
+
+.navbar-nav {
+  position: absolute;
+  right: 0;
+}
+
+.hero-banner {
+  background: #001542;
+  height: 100vh;
+  width: auto;
+}
 /*# sourceMappingURL=style.css.map */

@@ -1,3 +1,44 @@
 @import "sass/tools/_variables.scss";
-@import "fonts/webfontkit-20220414-062614/stylesheet"
+@import "fonts/webfontkit-20220414-062614/stylesheet";
 
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+// NAVBAR
+.navbar {
+  background: $primary-color;
+}
+
+
+.navbar-toggler-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link {
+  color: white;
+}
+.list {
+    height: 3em;
+}
+
+.navbar-collapse {
+  position: relative;
+}
+
+.navbar-nav {
+  position: absolute;
+  right: 0;
+}
+
+.hero-banner {
+    background: $primary-color;
+    height: 100vh;
+    width: auto;
+}
