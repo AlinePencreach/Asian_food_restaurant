@@ -9,6 +9,7 @@
 }
 
 .header {
+  top: 0;
   background-color: #001542;
 }
 
@@ -64,8 +65,8 @@
 
 .hero-svg {
   position: absolute;
-  right: 0px;
-  bottom: 0px;
+  right: 0;
+  bottom: 0;
   max-width: 70vw;
 }
 
@@ -83,6 +84,7 @@
   }
   .hero-banner .hero-header .hero-svg {
     position: relative;
+    min-width: 100vw;
   }
 }
 
@@ -110,7 +112,6 @@
   .title {
     text-align: center;
     margin-bottom: 0.5em;
-    background: #000;
   }
   .order-now {
     width: 100%;
