@@ -144,4 +144,18 @@
   width: 8em;
   text-align: center;
 }
+
+.our-story .text {
+  padding-bottom: 2em;
+  width: 60%;
+}
+
+.our-story .text h1 {
+  padding: .5em;
+}
+
+.our-story .mauris {
+  height: 13em;
+  margin: 5em;
+}
 /*# sourceMappingURL=style.css.map */
