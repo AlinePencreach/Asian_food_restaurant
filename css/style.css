@@ -8,6 +8,15 @@
           box-sizing: border-box;
 }
 
+* a {
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  max-width: 100vw;
+}
+
 .header {
   top: 0;
   background-color: #001542;
@@ -61,30 +70,31 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  max-width: 100vw;
 }
 
 .hero-svg {
   position: absolute;
   right: 0;
   bottom: 0;
-  max-width: 70vw;
+  max-width: 60vw;
 }
 
 @media screen and (max-width: 991px) {
-  .hero-banner {
+  .hero-header {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  .hero-banner .hero-header {
-    display: block;
-  }
-  .hero-banner .hero-header .hero-svg {
-    position: relative;
-    min-width: 100vw;
+  .hero-svg {
+    display: none;
   }
 }
 
@@ -106,21 +116,33 @@
   font: bold 3em "Loraitalic", "sans-serif";
   width: 8em;
   text-align: center;
+  font-size: 4em;
 }
 
 @media screen and (max-width: 991px) {
   .title {
+    width: 100vw;
     text-align: center;
     margin-bottom: 0.5em;
   }
   .order-now {
-    width: 100%;
+    width: 100vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .hero-title h1 {
+    font-size: 5em;
+    margin-bottom: 0.5em;
+  }
+  .hero-svg {
+    max-width: 90vw;
   }
 }
 
@@ -145,17 +167,77 @@
   text-align: center;
 }
 
-.our-story .text {
+.story {
+  background-color: #F0FAFF;
+  color: #001542;
+  padding: 0 3em;
+}
+
+.story .text {
   padding-bottom: 2em;
-  width: 60%;
+  width: 60vw;
 }
 
-.our-story .text h1 {
-  padding: .5em;
+.story .text h1 {
+  padding: 0.5em;
+  font: bold 3em "Loraitalic", "sans-serif";
+  font-size: 3em;
 }
 
-.our-story .mauris {
+.story .mauris {
   height: 13em;
   margin: 5em;
+}
+
+@media screen and (max-width: 991px) {
+  .our-story {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .our-story .text {
+    width: 90vw;
+    padding-bottom: 0em;
+  }
+  .our-story .text h1 {
+    padding: 0em;
+  }
+  .our-story .mauris {
+    margin: 1em;
+  }
+}
+
+.instagram-pics p {
+  font: 0.5em "lobsterregular", "sans-serif";
+  font-size: 2em;
+}
+
+.instagram-pics svg {
+  margin-left: 0.3em;
+}
+
+.instagram-pics img {
+  width: 10em;
+  margin: 1em;
+}
+
+.imginsta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 3em;
+}
+
+@media screen and (max-width: 750px) {
+  .imginsta {
+    display: block;
+  }
 }
 /*# sourceMappingURL=style.css.map */
