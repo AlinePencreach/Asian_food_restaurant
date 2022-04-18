@@ -169,7 +169,7 @@ body {
   background-color: #F0FAFF;
   color: #001542;
   padding: 0 3em;
-  width: 100vw;
+  max-width: 100vw;
 }
 
 .story .text {
@@ -219,6 +219,8 @@ body {
 .instagram-pics img {
   width: 10em;
   margin: 1em;
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
 }
 
 .imginsta {
@@ -242,11 +244,61 @@ body {
 
 footer {
   background-color: #FFCE56;
-  width: 100vw;
+  max-width: 100vw;
+}
+
+footer .footcopy {
+  color: #001542;
+  font-size: 0.8em;
+  cursor: pointer;
 }
 
 .left {
   max-width: 50vw;
-  background-color: crimson;
+}
+
+.left .white {
+  color: white;
+  font: 1em "loraregular", "sans-serif";
+  font-size: 1.7em;
+}
+
+.left .bleu {
+  color: #001542;
+  font: bold 3em "Loraitalic", "sans-serif";
+  font-size: 1.3em;
+  padding-left: 5em;
+}
+
+.adress span {
+  color: #001542;
+  font: 1em "loraregular", "sans-serif";
+  font-size: 1.2em;
+}
+
+.right {
+  color: #001542;
+  width: 50vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.right svg {
+  margin-left: 1em;
+}
+
+.right p {
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */

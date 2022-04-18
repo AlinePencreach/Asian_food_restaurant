@@ -64,7 +64,6 @@ body {
 .hero-header {
   display: flex;
   margin-left: 5em;
-  // width: 100vw;
 }
 
 .hero-svg {
@@ -103,7 +102,6 @@ body {
     margin-bottom: 0.5em;
   }
   .order-now {
-    // width: 100vw;
     display: flex;
     justify-content: center;
   }
@@ -140,7 +138,7 @@ body {
   background-color: $lighter-color;
   color: $primary-color;
   padding: 0 3em;
-  width: 100vw;
+  max-width: 100vw;
   .text {
     padding-bottom: 2em;
     width: 60vw;
@@ -184,6 +182,7 @@ body {
   img {
     width: 10em;
     margin: 1em;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
   }
 }
 
@@ -202,10 +201,48 @@ body {
 
 footer {
   background-color: $secondary-color;
-  width: 100vw;
+  max-width: 100vw;
+  .footcopy {
+    color: $primary-color;
+    font-size: 0.8em;
+    cursor: pointer;
+  }
 }
 
 .left {
   max-width: 50vw;
-  background-color: crimson;
+  .white {
+    color: white;
+    font: $primary-font;
+    font-size: 1.7em;
+  }
+  .bleu {
+    color: $primary-color;
+    font: $primary-title-font;
+    font-size: 1.3em;
+    padding-left: 5em;
+  }
+}
+
+.adress {
+  span {
+    color: $primary-color;
+    font: $primary-font;
+    font-size: 1.2em;
+  }
+}
+
+.right {
+  color: $primary-color;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  svg {
+    margin-left: 1em;
+  }
+  p {
+    cursor: pointer;
+  }
 }
