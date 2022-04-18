@@ -42,15 +42,6 @@ body {
   height: 3em;
 }
 
-.navbar-collapse {
-  position: relative;
-}
-
-.navbar-collapse .navbar-nav {
-  position: absolute;
-  right: 0;
-}
-
 .nav-item {
   width: auto;
 }
@@ -93,6 +84,7 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    max-width: 50vw;
   }
   .hero-svg {
     display: none;
@@ -155,6 +147,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 0;
 }
 
 .order-now p {
