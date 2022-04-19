@@ -224,7 +224,7 @@ footer {
 }
 
 .left {
-  max-width: 50vw;
+  // max-width: 50vw;
   .white {
     color: white;
     font: $primary-font;
@@ -246,15 +246,24 @@ footer {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+    svg {
+      margin-left: 1em;
+  }
+}
+
 .right {
   color: $primary-color;
-  width: 50vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   svg {
-    margin-left: 1em;
+    margin-right: 1em;
+    margin-left: .3em;
+    
   }
   p {
     cursor: pointer;
