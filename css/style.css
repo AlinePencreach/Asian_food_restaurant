@@ -76,7 +76,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 5em;
 }
 
 .hero-svg {
@@ -152,11 +151,8 @@ body {
 
 @media screen and (min-width: 1400px) {
   .hero-title h1 {
-    font-size: calc(30px + 5vw);
+    font-size: calc(30px + 3vw);
     margin-bottom: 0.5em;
-  }
-  .hero-svg {
-    max-width: 90vw;
   }
 }
 
@@ -321,7 +317,7 @@ footer .footcopy {
 
 .right svg {
   margin-right: 1em;
-  margin-left: .3em;
+  margin-left: 0.3em;
 }
 
 .right p {

@@ -64,7 +64,7 @@ body {
 
 .hero-header {
   display: flex;
-  margin-left: 5em;
+  // margin-left: 5em;
 }
 
 .hero-svg {
@@ -118,13 +118,13 @@ body {
 @media screen and (min-width: 1400px) {
   .hero-title {
     h1 {
-      font-size: calc(30px + 5vw);
+      font-size: calc(30px + 3vw);
       margin-bottom: 0.5em;
     }
   }
-  .hero-svg {
-    max-width: 90vw;
-  }
+  // .hero-svg {
+  //   max-width: calc(60vw + );
+  // }
 }
 
 .order-now {
@@ -253,8 +253,8 @@ footer {
     justify-content: center;
     align-items: center;
   }
-    svg {
-      margin-left: 1em;
+  svg {
+    margin-left: 1em;
   }
 }
 
@@ -262,8 +262,7 @@ footer {
   color: $primary-color;
   svg {
     margin-right: 1em;
-    margin-left: .3em;
-    
+    margin-left: 0.3em;
   }
   p {
     cursor: pointer;
