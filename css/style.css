@@ -23,7 +23,7 @@ body {
 }
 
 .navbar {
-  padding: 1em 2em;
+  padding: 0em 2em;
 }
 
 .navbar .navbar-toggler-icon {
@@ -257,6 +257,32 @@ body {
 @media screen and (max-width: 750px) {
   .imginsta {
     display: block;
+  }
+}
+
+.menu {
+  background-color: #F0FAFF;
+  color: #001542;
+  font: 1em "loraregular", "sans-serif";
+}
+
+.menu img {
+  width: 10em;
+  padding: 1em;
+}
+
+.menu h2 {
+  text-decoration: underline;
+  font: bold 3em "Loraitalic", "sans-serif";
+  font-size: 2em;
+}
+
+@media screen and (min-width: 750px) {
+  .menu {
+    background-color: #F0FAFF;
+  }
+  .menu img {
+    width: calc(7vw + 10em);
   }
 }
 

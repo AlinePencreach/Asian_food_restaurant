@@ -24,7 +24,7 @@ body {
 
 // NAVBAR
 .navbar {
-  padding: 1em 2em;
+  padding: 0em 2em;
 
   .navbar-toggler-icon {
     display: flex;
@@ -209,6 +209,31 @@ body {
 @media screen and (max-width: 750px) {
   .imginsta {
     display: block;
+  }
+}
+
+//MENU
+.menu {
+  background-color: $lighter-color;
+  color: $primary-color;
+  font: $primary-font;
+  img {
+    width: 10em;
+    padding: 1em;
+  }
+  h2 {
+    text-decoration: underline;
+    font: $primary-title-font;
+    font-size: 2em;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .menu {
+    background-color: $lighter-color;
+    img {
+      width: calc(7vw + 10em);
+    }
   }
 }
 
