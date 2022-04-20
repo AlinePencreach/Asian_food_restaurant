@@ -24,7 +24,7 @@ body {
 
 // NAVBAR
 .navbar {
-  padding: 0em 2em;
+  padding: 1em 2em;
 
   .navbar-toggler-icon {
     display: flex;
@@ -194,8 +194,8 @@ body {
   }
   img {
     width: 10em;
-    margin: 1em;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+    // margin: 1em;
+    // box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
   }
 }
 
@@ -203,14 +203,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 3em;
 }
 
-@media screen and (max-width: 750px) {
-  .imginsta {
-    display: block;
-  }
-}
+// @media screen and (min-width: 991px) {
+//   .imginsta {
+//     flex-direction: row;
+//   }
+// }
 
 //MENU
 .menu {
