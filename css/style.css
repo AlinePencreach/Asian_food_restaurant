@@ -23,7 +23,7 @@ body {
 }
 
 .navbar {
-  padding: 1em 2em;
+  padding: 0em 2em 1em 2em;
 }
 
 .navbar .navbar-toggler-icon {
