@@ -36,6 +36,19 @@ body {
   }
 }
 
+
+// MODAL 
+.btn {
+  font: $primary-font;
+  background-color: $primary-color;
+  color: $white-color;
+}
+.modal-header{
+  background-color: $primary-color;
+  color: $white-color;
+  font: $primary-font;
+}
+
 .nav-item {
   width: auto;
 }

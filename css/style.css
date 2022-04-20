@@ -42,6 +42,18 @@ body {
   height: 3em;
 }
 
+.btn {
+  font: 1em "loraregular", "sans-serif";
+  background-color: #001542;
+  color: #FFFFFF;
+}
+
+.modal-header {
+  background-color: #001542;
+  color: #FFFFFF;
+  font: 1em "loraregular", "sans-serif";
+}
+
 .nav-item {
   width: auto;
 }

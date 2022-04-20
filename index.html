@@ -51,11 +51,39 @@
               </li>
 
               <li class="nav-item m-lg-5">
-                <a class="nav-link" href="index.html">Nous contacter</a>
+                <a class="nav-link" href="index.html" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Nous contacter</a>
               </li>
             </ul>
           </div>
         </div>
+          
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog container">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Nous contacter</h5>
+          <!-- <button type="button" class="btn-close text-light" data-bs-dismiss="modal" aria-label="Close"></button> -->
+        </div>
+        <div class="modal-body">
+          <form action="">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Votre adresse mail</label>
+              <input type="email" class="form-control bg-light" id="exampleFormControlInput1" placeholder="prenom@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Votre message ici</label>
+              <textarea class="form-control bg-light" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer bg-light">
+          <button type="button" class="btn btn-lg" data-bs-dismiss="modal">Envoyer</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
       </nav>
 
       <!-- HERO BANNER -->
